@@ -1,0 +1,602 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_number",
+          "type": "uint256"
+        }
+      ],
+      "name": "setNumber",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNumber",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "storedNumber",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "allSourcePaths": {
+    "0": "contracts/NumberStorage.vy"
+  },
+  "ast": {
+    "ast_type": "Module",
+    "body": [
+      {
+        "annotation": {
+          "ast_type": "Name",
+          "col_offset": 21,
+          "end_col_offset": 28,
+          "end_lineno": 4,
+          "id": "uint256",
+          "lineno": 4,
+          "node_id": 7,
+          "src": "78:7:0"
+        },
+        "ast_type": "VariableDecl",
+        "col_offset": 0,
+        "end_col_offset": 29,
+        "end_lineno": 4,
+        "is_constant": false,
+        "is_immutable": false,
+        "is_public": true,
+        "lineno": 4,
+        "node_id": 1,
+        "src": "57:29:0",
+        "target": {
+          "ast_type": "Name",
+          "col_offset": 0,
+          "end_col_offset": 12,
+          "end_lineno": 4,
+          "id": "storedNumber",
+          "lineno": 4,
+          "node_id": 2,
+          "src": "57:12:0"
+        },
+        "value": null
+      },
+      {
+        "args": {
+          "args": [
+            {
+              "annotation": {
+                "ast_type": "Name",
+                "col_offset": 23,
+                "end_col_offset": 30,
+                "end_lineno": 8,
+                "id": "uint256",
+                "lineno": 8,
+                "node_id": 12,
+                "src": "141:7:0"
+              },
+              "arg": "_number",
+              "ast_type": "arg",
+              "col_offset": 14,
+              "end_col_offset": 30,
+              "end_lineno": 8,
+              "lineno": 8,
+              "node_id": 11,
+              "src": "132:16:0"
+            }
+          ],
+          "ast_type": "arguments",
+          "col_offset": 14,
+          "default": null,
+          "defaults": [],
+          "end_col_offset": 30,
+          "end_lineno": 8,
+          "lineno": 8,
+          "node_id": 10,
+          "src": "132:16:0"
+        },
+        "ast_type": "FunctionDef",
+        "body": [
+          {
+            "ast_type": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 31,
+            "end_lineno": 9,
+            "lineno": 9,
+            "node_id": 14,
+            "src": "155:27:0",
+            "target": {
+              "ast_type": "Attribute",
+              "attr": "storedNumber",
+              "col_offset": 4,
+              "end_col_offset": 21,
+              "end_lineno": 9,
+              "lineno": 9,
+              "node_id": 15,
+              "src": "155:17:0",
+              "value": {
+                "ast_type": "Name",
+                "col_offset": 4,
+                "end_col_offset": 8,
+                "end_lineno": 9,
+                "id": "self",
+                "lineno": 9,
+                "node_id": 16,
+                "src": "155:4:0"
+              }
+            },
+            "value": {
+              "ast_type": "Name",
+              "col_offset": 24,
+              "end_col_offset": 31,
+              "end_lineno": 9,
+              "id": "_number",
+              "lineno": 9,
+              "node_id": 19,
+              "src": "175:7:0"
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [
+          {
+            "ast_type": "Name",
+            "col_offset": 1,
+            "end_col_offset": 9,
+            "end_lineno": 7,
+            "id": "external",
+            "lineno": 7,
+            "node_id": 21,
+            "src": "108:8:0"
+          }
+        ],
+        "doc_string": null,
+        "end_col_offset": 31,
+        "end_lineno": 9,
+        "lineno": 8,
+        "name": "setNumber",
+        "node_id": 9,
+        "pos": null,
+        "returns": null,
+        "src": "118:64:0"
+      },
+      {
+        "args": {
+          "args": [],
+          "ast_type": "arguments",
+          "col_offset": 0,
+          "default": null,
+          "defaults": [],
+          "end_col_offset": 3,
+          "end_lineno": 13,
+          "lineno": 13,
+          "node_id": 24,
+          "src": "214:3:0"
+        },
+        "ast_type": "FunctionDef",
+        "body": [
+          {
+            "ast_type": "Return",
+            "col_offset": 4,
+            "end_col_offset": 28,
+            "end_lineno": 14,
+            "lineno": 14,
+            "node_id": 25,
+            "src": "246:24:0",
+            "value": {
+              "ast_type": "Attribute",
+              "attr": "storedNumber",
+              "col_offset": 11,
+              "end_col_offset": 28,
+              "end_lineno": 14,
+              "lineno": 14,
+              "node_id": 26,
+              "src": "253:17:0",
+              "value": {
+                "ast_type": "Name",
+                "col_offset": 11,
+                "end_col_offset": 15,
+                "end_lineno": 14,
+                "id": "self",
+                "lineno": 14,
+                "node_id": 27,
+                "src": "253:4:0"
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [
+          {
+            "ast_type": "Name",
+            "col_offset": 1,
+            "end_col_offset": 9,
+            "end_lineno": 12,
+            "id": "external",
+            "lineno": 12,
+            "node_id": 30,
+            "src": "204:8:0"
+          }
+        ],
+        "doc_string": null,
+        "end_col_offset": 28,
+        "end_lineno": 14,
+        "lineno": 13,
+        "name": "getNumber",
+        "node_id": 23,
+        "pos": null,
+        "returns": {
+          "ast_type": "Name",
+          "col_offset": 19,
+          "end_col_offset": 26,
+          "end_lineno": 13,
+          "id": "uint256",
+          "lineno": 13,
+          "node_id": 32,
+          "src": "233:7:0"
+        },
+        "src": "214:56:0"
+      }
+    ],
+    "col_offset": 0,
+    "doc_string": null,
+    "end_col_offset": 28,
+    "end_lineno": 14,
+    "lineno": 1,
+    "name": "contracts/NumberStorage.vy",
+    "node_id": 0,
+    "src": "0:270:0"
+  },
+  "bytecode": "0x61008a61000f60003961008a6000f36003361161000c57610072565b60003560e01c3461007857633fb5c1cb8118610032576024361061007857600435600055005b63f2c9ecd8811861005157600436106100785760005460405260206040f35b6309ce9ccb811861007057600436106100785760005460405260206040f35b505b60006000fd5b600080fda165767970657283000307000b",
+  "bytecodeSha1": "86982379b504e97cb8cdf73981ae4a551a67b5c4",
+  "compiler": {
+    "evm_version": "paris",
+    "version": "0.3.7"
+  },
+  "contractName": "NumberStorage",
+  "coverageMap": {
+    "branches": {
+      "0": {}
+    },
+    "statements": {
+      "0": {
+        "NumberStorage.getNumber": {
+          "1": [
+            246,
+            270
+          ]
+        },
+        "NumberStorage.setNumber": {
+          "0": [
+            155,
+            182
+          ]
+        }
+      }
+    }
+  },
+  "dependencies": [],
+  "deployedBytecode": "0x6003361161000c57610072565b60003560e01c3461007857633fb5c1cb8118610032576024361061007857600435600055005b63f2c9ecd8811861005157600436106100785760005460405260206040f35b6309ce9ccb811861007057600436106100785760005460405260206040f35b505b60006000fd5b600080fda165767970657283000307000b",
+  "deployedSourceMap": "-1:-1:0:-;;;;:::-;;:::-;:::-;;;;;;;:::-;;;;;:::-;;;;;:::-;175:7;-1:-1;155:17;:27;-1:-1;:::-;;;;;:::-;;;;;:::-;253:17;-1:-1;;;;;;:::-;;;;;:::-;;;;;:::-;;;;;;;;:::-;;:::-;;;;:::-;;;",
+  "language": "Vyper",
+  "natspec": {
+    "methods": {}
+  },
+  "offset": [
+    0,
+    270
+  ],
+  "opcodes": "PUSH1 0x3 CALLDATASIZE GT PUSH2 0x0C JUMPI PUSH2 0x072 JUMP JUMPDEST PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR CALLVALUE PUSH2 0x078 JUMPI PUSH4 0x3FB5C1CB DUP2 XOR PUSH2 0x032 JUMPI PUSH1 0x24 CALLDATASIZE LT PUSH2 0x078 JUMPI PUSH1 0x4 CALLDATALOAD PUSH1 0x0 SSTORE STOP JUMPDEST PUSH4 0xF2C9ECD8 DUP2 XOR PUSH2 0x051 JUMPI PUSH1 0x4 CALLDATASIZE LT PUSH2 0x078 JUMPI PUSH1 0x0 SLOAD PUSH1 0x40 MSTORE PUSH1 0x20 PUSH1 0x40 RETURN JUMPDEST PUSH4 0x9CE9CCB DUP2 XOR PUSH2 0x070 JUMPI PUSH1 0x4 CALLDATASIZE LT PUSH2 0x078 JUMPI PUSH1 0x0 SLOAD PUSH1 0x40 MSTORE PUSH1 0x20 PUSH1 0x40 RETURN JUMPDEST POP JUMPDEST PUSH1 0x0 PUSH1 0x0 REVERT JUMPDEST PUSH1 0x0 DUP1 REVERT LOG1 PUSH6 0x767970657283 STOP SUB SMOD STOP SIGNEXTEND",
+  "pcMap": {
+    "0": {
+      "offset": [
+        0,
+        270
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x3"
+    },
+    "2": {
+      "op": "CALLDATASIZE"
+    },
+    "3": {
+      "op": "GT"
+    },
+    "4": {
+      "op": "PUSH2",
+      "value": "0x0C"
+    },
+    "7": {
+      "op": "JUMPI"
+    },
+    "8": {
+      "op": "PUSH2",
+      "value": "0x072"
+    },
+    "11": {
+      "op": "JUMP"
+    },
+    "12": {
+      "op": "JUMPDEST"
+    },
+    "13": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "15": {
+      "op": "CALLDATALOAD"
+    },
+    "16": {
+      "op": "PUSH1",
+      "value": "0xE0"
+    },
+    "18": {
+      "op": "SHR"
+    },
+    "19": {
+      "op": "CALLVALUE"
+    },
+    "20": {
+      "op": "PUSH2",
+      "value": "0x078"
+    },
+    "23": {
+      "op": "JUMPI"
+    },
+    "24": {
+      "op": "PUSH4",
+      "value": "0x3FB5C1CB"
+    },
+    "29": {
+      "op": "DUP2"
+    },
+    "30": {
+      "op": "XOR"
+    },
+    "31": {
+      "op": "PUSH2",
+      "value": "0x032"
+    },
+    "34": {
+      "op": "JUMPI"
+    },
+    "35": {
+      "op": "PUSH1",
+      "value": "0x24"
+    },
+    "37": {
+      "op": "CALLDATASIZE"
+    },
+    "38": {
+      "op": "LT"
+    },
+    "39": {
+      "op": "PUSH2",
+      "value": "0x078"
+    },
+    "42": {
+      "op": "JUMPI"
+    },
+    "43": {
+      "fn": "NumberStorage.setNumber",
+      "offset": [
+        175,
+        182
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "statement": 0,
+      "value": "0x4"
+    },
+    "45": {
+      "op": "CALLDATALOAD"
+    },
+    "46": {
+      "fn": "NumberStorage.setNumber",
+      "offset": [
+        155,
+        172
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x0"
+    },
+    "48": {
+      "fn": "NumberStorage.setNumber",
+      "offset": [
+        155,
+        182
+      ],
+      "op": "SSTORE",
+      "path": "0"
+    },
+    "49": {
+      "op": "STOP"
+    },
+    "50": {
+      "op": "JUMPDEST"
+    },
+    "51": {
+      "op": "PUSH4",
+      "value": "0xF2C9ECD8"
+    },
+    "56": {
+      "op": "DUP2"
+    },
+    "57": {
+      "op": "XOR"
+    },
+    "58": {
+      "op": "PUSH2",
+      "value": "0x051"
+    },
+    "61": {
+      "op": "JUMPI"
+    },
+    "62": {
+      "op": "PUSH1",
+      "value": "0x4"
+    },
+    "64": {
+      "op": "CALLDATASIZE"
+    },
+    "65": {
+      "op": "LT"
+    },
+    "66": {
+      "op": "PUSH2",
+      "value": "0x078"
+    },
+    "69": {
+      "op": "JUMPI"
+    },
+    "70": {
+      "fn": "NumberStorage.getNumber",
+      "offset": [
+        253,
+        270
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "statement": 1,
+      "value": "0x0"
+    },
+    "72": {
+      "op": "SLOAD"
+    },
+    "73": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "75": {
+      "op": "MSTORE"
+    },
+    "76": {
+      "op": "PUSH1",
+      "value": "0x20"
+    },
+    "78": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "80": {
+      "op": "RETURN"
+    },
+    "81": {
+      "op": "JUMPDEST"
+    },
+    "82": {
+      "op": "PUSH4",
+      "value": "0x9CE9CCB"
+    },
+    "87": {
+      "op": "DUP2"
+    },
+    "88": {
+      "op": "XOR"
+    },
+    "89": {
+      "op": "PUSH2",
+      "value": "0x070"
+    },
+    "92": {
+      "op": "JUMPI"
+    },
+    "93": {
+      "op": "PUSH1",
+      "value": "0x4"
+    },
+    "95": {
+      "op": "CALLDATASIZE"
+    },
+    "96": {
+      "op": "LT"
+    },
+    "97": {
+      "op": "PUSH2",
+      "value": "0x078"
+    },
+    "100": {
+      "op": "JUMPI"
+    },
+    "101": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "103": {
+      "op": "SLOAD"
+    },
+    "104": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "106": {
+      "op": "MSTORE"
+    },
+    "107": {
+      "op": "PUSH1",
+      "value": "0x20"
+    },
+    "109": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "111": {
+      "op": "RETURN"
+    },
+    "112": {
+      "op": "JUMPDEST"
+    },
+    "113": {
+      "op": "POP"
+    },
+    "114": {
+      "op": "JUMPDEST"
+    },
+    "115": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "117": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "119": {
+      "op": "REVERT"
+    },
+    "120": {
+      "op": "JUMPDEST"
+    },
+    "121": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "123": {
+      "op": "DUP1"
+    },
+    "124": {
+      "op": "REVERT"
+    }
+  },
+  "sha1": "5ff702fba06472197cd8b2e8cc93f45efc11454d",
+  "source": "# SPDX-License-Identifier: UNLICENSED\n# @version ^0.3.7\n\nstoredNumber: public(uint256)\n\n# Storing function\n@external \ndef setNumber(_number: uint256):\n    self.storedNumber = _number\n\n# Reading function\n@external \ndef getNumber() -> uint256:\n    return self.storedNumber",
+  "sourceMap": "",
+  "sourcePath": "contracts/NumberStorage.vy",
+  "type": "contract"
+}
